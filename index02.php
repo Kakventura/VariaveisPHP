@@ -8,7 +8,7 @@
 <body>
     <?php
 
-    // EMPITY SERVE PARA MESMA COISA //
+  
     if(isset($_GET['operacao']) && isset($_GET['x']) && isset($_GET['y'])){
         if ($_GET['operacao'] == "adicao"){
         echo $_GET['x']+$_GET['y'];
